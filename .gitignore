@@ -1,0 +1,28 @@
+# Build output and third-party binaries (restore with `dotnet build`)
+engine/
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# Local state, backups and personal data -- never commit these
+config.json
+backups/
+output/
+*.db
+settings*.json
+*.zip
+MaiCharts/
+Skins/
+Logs/
+
+# Editor / OS noise
+__pycache__/
+*.pyc
+.vs/
+.idea/
+Thumbs.db
+.DS_Store
