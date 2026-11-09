@@ -2,7 +2,7 @@
 
 针对 [MajdataPlay](https://github.com/LingFeng-bbben/MajdataPlay) **Windows 运行包 2.0.3 `20260917-637bba0`（Mono 后端）** 的非官方外置工具：直接修改「调试 → 显示传感器」触发态的高亮颜色。
 
-**本仓库只做这一件事。** 它与独立的 [Fault 计数器补丁](https://github.com/zYanzy/majdataplay-fault-counter) 互不依赖：可以只装本工具、只装 Fault 补丁，或两个都装（顺序随意）。本引擎只改 `DummyTouchPanelRenderer.OnPreUpdate()` 里 `Color(R,G,B,A)` 的 4 个浮点常量，**不注入也不移除**任何其他补丁。
+**本仓库只做这一件事。** 它与独立的 [Fault 计数器补丁](https://github.com/zYanzy/majdataplay-center-display) 互不依赖：可以只装本工具、只装 Fault 补丁，或两个都装（顺序随意）。本引擎只改 `DummyTouchPanelRenderer.OnPreUpdate()` 里 `Color(R,G,B,A)` 的 4 个浮点常量，**不注入也不移除**任何其他补丁。
 
 仓库不含游戏本体、官方二进制、谱面、皮肤、成绩库或个人设置。
 

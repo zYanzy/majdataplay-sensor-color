@@ -2,7 +2,7 @@
 
 > 本文件供 AI Agent 阅读执行。请严格按顺序操作，**任何一步校验失败就停止并向用户报告**，不要猜测、不要跳过、不要强行写入程序集。
 >
-> 本指南**只改传感器高亮颜色**，不会注入 Fault 计数器。若用户还要 Fault 计数器，另见 `majdataplay-fault-counter` 仓库的 INSTALL.md；两份补丁可任意顺序叠加。
+> 本指南**只改传感器高亮颜色**，不会注入 Fault 计数器。若用户还要 Fault 计数器，另见 `majdataplay-center-display` 仓库的 INSTALL.md；两份补丁可任意顺序叠加。
 
 ## 1. 适用范围（硬性前提）
 
